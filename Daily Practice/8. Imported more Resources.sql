@@ -17,7 +17,7 @@ skill_id INT
 );
 COPY skills_job_dim
 FROM '.Resources/skills_job_dim.csv'
-DELIMITER '	' CSV HEADER;
+DELIMITER ',' CSV HEADER;
 
 CREATE TABLE skills_dim
 (
